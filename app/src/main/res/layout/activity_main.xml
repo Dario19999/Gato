@@ -110,10 +110,11 @@
             android:text="Ganador:"
             android:textSize="25dp"/>
 
-        <EditText
+        <TextView
             android:id="@+id/textGanador"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:textSize="30dp"/>
 
     </LinearLayout>
 
