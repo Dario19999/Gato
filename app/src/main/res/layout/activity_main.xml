@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_height="match_parent"
+     android:layout_width="match_parent">
+
+    <!-- Botones de la primera fila -->
+    <LinearLayout
+        android:id="@+id/filaUno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="50dp">
+
+        <Button
+            android:id="@+id/boton1Fila1"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:text=" "/>
+
+        <Button
+            android:id="@+id/boton2Fila1"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:text=" "/>
+
+        <Button
+            android:id="@+id/boton3Fila1"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:text=" "/>
+
+    </LinearLayout>
+
+    <!-- Botones de la segunda fila -->
+    <LinearLayout
+        android:id="@+id/filaDos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="25dp"
+        android:layout_below="@+id/filaUno"
+        >
+
+        <Button
+            android:id="@+id/boton1Fila2"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:text=" "/>
+
+        <Button
+            android:id="@+id/boton2Fila2"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:text=" "/>
+
+        <Button
+            android:id="@+id/boton3Fila2"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:text=" "/>
+
+    </LinearLayout>
+
+    <!-- Botones de la tercera fila -->
+    <LinearLayout
+        android:id="@+id/filaTres"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="25dp"
+        android:layout_below="@+id/filaDos"
+        >
+
+        <Button
+            android:id="@+id/boton1Fila3"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:text=" "/>
+
+        <Button
+            android:id="@+id/boton2Fila3"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:text=" "/>
+
+        <Button
+            android:id="@+id/boton3Fila3"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:text=" "/>
+
+    </LinearLayout>
+
+    <!-- Textos -->
+    <LinearLayout
+        android:id="@+id/textoGanador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/filaTres"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ganador:"
+            android:textSize="25dp"/>
+
+        <EditText
+            android:id="@+id/textGanador"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</RelativeLayout>
