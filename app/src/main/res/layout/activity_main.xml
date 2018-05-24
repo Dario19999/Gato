@@ -114,5 +114,28 @@
             android:id="@+id/textGanador"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/botonesSR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/textoGanador">
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="25dp"
+            android:text="Volver a jugar"
+            android:id="@+id/replay"/>
+
+        <Button
+            android:layout_width="156dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="25dp"
+            android:text="Salir"
+            android:id="@+id/exit"/>
     </LinearLayout>
 </RelativeLayout>
